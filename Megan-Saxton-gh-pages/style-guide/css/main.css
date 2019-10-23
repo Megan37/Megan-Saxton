@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    /* min-height: 600px; */
+}
+
+.section-item {
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    display: inline;
+    margin: 10px;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    border-bottom: 5px solid black;
+}
