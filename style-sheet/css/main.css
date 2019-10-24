@@ -1,2 +1,87 @@
-<head>
-</head>
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    margin: 60px 60px;
+    /* min-height: 600px; */
+}
+
+.section-item {
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    display: inline;
+    margin: 10px;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    /* border-bottom: 2px solid #F1CCC2; */
+    width: 100%;
+    display: block;
+    font-size: 2em;
+    margin-bottom: -10px;
+    /* color: #799693; */
+
+}
+
+.section-name > h1 {
+    color: #799693;
+    border-bottom: 2px solid #F1CCC2;
+    margin-bottom: 30px;
+}
+
+/* .headline-copy {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    border-bottom: none;
+    font-size: 1.5em;
+} */
+code {
+    background-color:black;
+    color:greenyellow;
+    padding:15px;
+    line-height: 42px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+}
+
+.color-item {
+    list-style-type: none;
+    display:inline-block;
+    width:200px;
+    height:200px;
+    margin:10px;
+    /* border:1px solid black; */
+}
+
+#first {
+    background-color: #F1CCC2;
+}
+
+#second {
+    background-color: #799693;
+}
+
+#third {
+    background-color: #114146;
+}
+
+/* #colours > section > article {
+    max-width: 255px;
+} */
