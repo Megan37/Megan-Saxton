@@ -9,7 +9,7 @@ section {
     display: flex;
     justify-content: space-evenly;
     flex-flow: row wrap;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 60px 60px;
     /* min-height: 600px; */
 }
@@ -44,6 +44,18 @@ h1 {
     margin-bottom: 30px;
 }
 
+.sub-section-name > h3 {
+    color: #799693;
+    /* border-bottom: 2px solid #F1CCC2; */
+    margin-bottom: 30px;
+    flex-basis: 100%;
+}
+
+/* THIS IS SO THE SECTION NAMES DON'T FELX */
+.section-name {
+    flex-basis: 100%;
+}
+
 /* .headline-copy {
     font-family: 'Roboto Condensed', sans-serif;
     color: black;
@@ -70,18 +82,82 @@ h1,h2,h3,h4,h5,h6 {
     /* border:1px solid black; */
 }
 
-#first {
+#pink {
     background-color: #F1CCC2;
 }
 
-#second {
+#seagreen {
     background-color: #799693;
 }
 
-#third {
+#darkgreen {
     background-color: #114146;
 }
 
 /* #colours > section > article {
     max-width: 255px;
 } */
+
+a {
+    color: white;
+}
+
+.headline-copy {
+    color: #799693;
+}
+
+li > p {
+    color: white;
+    padding-left: 10px;
+}
+
+/* .scary {
+    max-width: 200px;
+    margin: 10px;
+    display: inline-block;
+} */
+
+.headline {
+    background-color: #799693;
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.bottom-right {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+  }
+
+/* cntered the code below the image */
+.pic-code {
+      flex-basis: 100%;
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  /* .logo {
+    position: absolute;
+    bottom: 25%;
+  } */
+
+#logo {
+      margin-top: 20px;
+      margin-bottom: 15px;
+      margin-left: 20px;
+      margin-right: 20px;
+      /* outline: solid black; */
+  }
+
+.logo {
+    outline: solid black;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
